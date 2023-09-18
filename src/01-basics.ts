@@ -28,7 +28,12 @@ const friend1 = {
         email: string;
         extention: number
     }
-}
+  }
+
+interface ColleagueHistory {
+    current: Colleague[],
+    former: Colleague[]
+  }
 
   const colleague1 = {
     name: "Ralph Graham",
